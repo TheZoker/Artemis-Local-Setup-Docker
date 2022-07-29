@@ -28,12 +28,6 @@ jobs:
         include:
           - name: bitbucket
             version: 7.21.3
-          - name: bamboo
-            version: 8.1.8
-          - name: bamboo-build-agent
-            version: 8.1.8
-          - name: jira
-            version: 8.20.10
 
     runs-on: ubuntu-latest
     steps:
